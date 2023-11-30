@@ -4,6 +4,10 @@ if __name__ == "__main__":
     
     result = 0
     for i in sys.argv[1:]:
-        result += int(i)
+        try:
+            result += int(i)
+        except ValueError:
+            print("Skipping non-integer argument: {}".format(i))
+
     print("Result: {}".format(result))
 
