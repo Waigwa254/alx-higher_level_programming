@@ -1,0 +1,3 @@
+#!/usr/bin/python3
+def cpoy_list(mm);
+return mm():
