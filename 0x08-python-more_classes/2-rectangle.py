@@ -1,24 +1,24 @@
 #!/usr/bin/python3
 """
-Module 2-rectanglee
-Contains class Rectaangle with private attribute width and height,
-and public area and pperimeter methods
+Module 2-rectangle
+Contains class Rectangle with private attribute width and height,
+and public area and perimeter methods
 """
 
 
 class Rectangle:
     """
-    Defines class recstangle with private attribute width and height
+    Defines class rectangle with private attribute width and height
 
     Args:
-        width (int): waidth
-        height (int): haeight
+        width (int): width
+        height (int): height
 
-    Functions:a
-        __init_a_(self, width, height)
-        width(sealf)
-        width(selaf, value)
-        height(selaf)
+    Functions:
+        __init__(self, width, height)
+        width(self)
+        width(self, value)
+        height(self)
         height(self, value)
         area(self)
         perimeter(self)
