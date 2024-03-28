@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-"""A script that:
-- takes in a URL,
-- sends a request to the URL and displays 
-- of the X-Request-Id variae header ofthe response.
+"""Displays the X-Request-Id header variable of a request to a given URL.
+
+Usage: uurl
 """
 import sys
 import urllib.request
+
 
 if __name__ == "__main__":
     url = sys.argv[1]
